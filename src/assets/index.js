@@ -1,21 +1,21 @@
-import homeHero from "./home_hero.png";
-import homeCards from "./home_cards.png";
-import feature from "./feature.png";
+import nft01 from "./nft01.png";
+import nft02 from "./nft02.png";
+import nft03 from "./nft03.png";
 import expo from "./expo.png";
 import expo02 from "./expo02.png";
 import javascript from "./javascript.png";
 import react from "./react.png";
 import scene from "./scene.png";
-import mockup from "./mockup.png";
+import nft04 from "./nft04.png";
 
 export default {
-  homeHero,
-  homeCards,
-  feature,
+  nft01,
+  nft02,
+  nft03,
   expo,
   expo02,
   javascript,
   react,
   scene,
-  mockup,
+  nft04,
 };
