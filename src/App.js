@@ -45,14 +45,21 @@
 
 // export default App;
 
+import { Download, Features, SectionWrapper } from './components';
+import assets from './assets'
+
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3x1 font-bold">
-        React Native NFT showcase
-      </h1>
-    </div>
+    <>
+      <SectionWrapper
+        title="You own store of Nifty NFTs. Start Selling and Growing"
+        description="Buy, store, collect NFTS, exchange and earn crypto. Join 250 Thousands people using Soft-NFTs Marketplace."
+        showBtn
+        mockupImg={assets.homeHero}
+        banner="banner"
+      />
+    </>
   )
 }
 
