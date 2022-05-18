@@ -47,6 +47,7 @@
 
 import { Download, Features, SectionWrapper } from './components';
 import assets from './assets'
+import styles from './styles/Global'
 
 
 const App = () => {
@@ -68,7 +69,7 @@ const App = () => {
       <Features />
       <SectionWrapper
         title="Deployment"
-        description="Soft-NFTs is built using Expo which runs natively on all users' devices. You can easily get your app into people's hands"
+        description="Soft-NFTs is built using React-Native which runs natively on all OS. You can easily get your app into people's hands"
         mockupImg={assets.feature}
         reverse
       />
@@ -79,6 +80,12 @@ const App = () => {
         banner="banner02"
       />
       <Download />
+
+      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
+        <p className={`${styles.pText} ${styles.whiteText}`}>Made with love by {" "}
+          <span className="bold">Abdul-Quayyum</span>
+        </p>
+      </div>
     </>
   )
 }
