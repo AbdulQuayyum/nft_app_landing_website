@@ -49,7 +49,7 @@
 const App = () => {
   return (
     <div>
-      <h1 className="text-3x1 font-bold underline">
+      <h1 className="text-3x1 font-bold">
         React Native NFT showcase
       </h1>
     </div>
