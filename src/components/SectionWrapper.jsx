@@ -59,7 +59,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
                     {showBtn && (
                         <Button
                             assetUrl={assets.expo}
-                            link=""
+                            link="https://expo.dev/@quayyum/nft_app?serviceType=classic&distribution=expo-go"
                         />
                     )}
                 </div>
